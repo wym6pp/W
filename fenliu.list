@@ -37,10 +37,6 @@ HOST-SUFFIX, paypalobjects.com, DIRECT
 # Steam
 HOST-SUFFIX, cm.steampowered.com, DIRECT
 HOST-SUFFIX, steamserver.net, DIRECT
-# Tencent
-IP-CIDR, 182.254.116.0/24, DIRECT
-IP-CIDR, 203.205.238.0/23, DIRECT
-IP-CIDR, 203.205.254.0/23, DIRECT
 # IP Query
 HOST, ip.istatmenus.app, DIRECT
 HOST, sms.imagetasks.com, DIRECT
