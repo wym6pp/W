@@ -9,3 +9,7 @@ host, livewebbs2pcdn.msstatic.com, reject
 host, huyafile.msstatic.com, reject
 host, livewebbs2.msstatic.com, reject
 host, business.msstatic.com, reject
+# Outlook
+HOST, outlook.office365.com, DIRECT
+HOST, smtp-mail.outlook.com, DIRECT
+HOST, smtp.office365.com, DIRECT
