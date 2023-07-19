@@ -3,8 +3,6 @@ host, sdkapp.uve.weibo.com, direct
 host-suffix, jdqd.jd.com, reject
 host, ntb.lanjie100.com, reject
 host, s3.zdmimg.com, reject
-# B站去广告
-ip-cidr, 203.107.1.1/24, reject
 # 虎牙直播开屏广告
 host, pp-cdnfile2pcdn.msstatic.com, reject
 host, livewebbs2pcdn.msstatic.com, reject
