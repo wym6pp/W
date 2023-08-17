@@ -1,5 +1,5 @@
 host, is.snssdk.com, direct
-;host, sdkapp.uve.weibo.com, direct
+#host, sdkapp.uve.weibo.com, direct
 host-suffix, jdqd.jd.com, reject
 host, ntb.lanjie100.com, reject
 host, s3.zdmimg.com, reject
