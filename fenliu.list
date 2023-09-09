@@ -1,4 +1,4 @@
-host, is.snssdk.com, direct
+#host, is.snssdk.com, direct
 host-suffix, ele.me, direct
 #host, sdkapp.uve.weibo.com, direct
 host-suffix, jdqd.jd.com, reject
