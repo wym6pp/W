@@ -12,5 +12,6 @@ host, livewebbs2.msstatic.com, reject
 host, business.msstatic.com, reject
 
 host-suffix, wndtkn.xyz, direct
-HOST,grpc.biliapi.net,REJECT
+host, grpc.biliapi.net, reject
 host-suffix, cupid.iqiyi.com, direct
+host, push.m.youku.com, direct
