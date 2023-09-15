@@ -13,3 +13,4 @@ host, business.msstatic.com, reject
 
 host-suffix, wndtkn.xyz, direct
 HOST,grpc.biliapi.net,REJECT
+host-suffix, cupid.iqiyi.com, direct
