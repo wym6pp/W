@@ -19,5 +19,4 @@ host-suffix, cupid.iqiyi.com, direct
 host, push.m.youku.com, direct
 host, un-acs.youku.com, direct
 host, dorangesource.alicdn.com, direct
-host-suffix, at3.doubanio.com, reject
-host-suffix, at4.doubanio.com, reject
+
