@@ -1,5 +1,5 @@
 #host, is.snssdk.com, direct
-host-suffix, ele.me, direct
+#host-suffix, ele.me, direct
 #host, sdkapp.uve.weibo.com, direct
 host,gw.im.weibo.cn,reject
 host,gw1.i.weibo.cn,reject
@@ -15,8 +15,4 @@ host, business.msstatic.com, reject
 
 host-suffix, wndtkn.xyz, direct
 host, grpc.biliapi.net, reject
-host-suffix, cupid.iqiyi.com, direct
-host, push.m.youku.com, direct
-host, un-acs.youku.com, direct
-host, dorangesource.alicdn.com, direct
 
