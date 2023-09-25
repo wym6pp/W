@@ -1,3 +1,4 @@
+host, grpc.biliapi.net, reject
 host,gw.im.weibo.cn,reject
 host,gw1.i.weibo.cn,reject
 host-suffix, jdqd.jd.com, reject
@@ -10,5 +11,4 @@ host, livewebbs2.msstatic.com, reject
 host, business.msstatic.com, reject
 
 host-suffix, wndtkn.xyz, direct
-host, grpc.biliapi.net, reject
 
