@@ -1,8 +1,7 @@
 host, grpc.biliapi.net, reject
 host, gw.im.weibo.cn,reject
 host, gw1.i.weibo.cn,reject
-host-suffix, jdqd.jd.com, reject
-host, s3.zdmimg.com, reject
+#host, s3.zdmimg.com, reject
 # 虎牙直播 开屏广告
 host, pp-cdnfile2pcdn.msstatic.com, reject
 host, livewebbs2pcdn.msstatic.com, reject
