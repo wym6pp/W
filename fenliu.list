@@ -1,10 +1,4 @@
-host-suffix, jdqd.jd.com, reject
 host, gw.im.weibo.cn,reject
 host, gw1.i.weibo.cn,reject
 host-suffix, wndtkn.xyz, direct
-# 虎牙直播 开屏广告
-host, pp-cdnfile2pcdn.msstatic.com, reject
-host, livewebbs2pcdn.msstatic.com, reject
-host, huyafile.msstatic.com, reject
-host, livewebbs2.msstatic.com, reject
-host, business.msstatic.com, reject
+
