@@ -1,3 +1,20 @@
+# 交管12123
+host-suffix, v3.fstats.xyz, reject
+host-suffix, wss.haoyundmn.com, reject
+host-suffix, new.xiongzhangad.com, reject
+host-suffix, alexametrics.com, reject
+host-keyword, in-page-push, reject
+
+# 抖音
+host-keyword, bds.snssdk.com, reject
+host-keyword, p6-ad-sign.byteimg.com, reject
+host-keyword, p3.pstatp.com, reject
+
+# 虎扑
+host, adx.hupu.com, reject
+host, adx-api.hupu.com, reject
+host, goblin.hupu.com, reject
+
 # 虎牙直播 开屏广告
 host, pp-cdnfile2pcdn.msstatic.com, reject
 host, livewebbs2pcdn.msstatic.com, reject
@@ -5,9 +22,193 @@ host, huyafile.msstatic.com, reject
 host, livewebbs2.msstatic.com, reject
 host, business.msstatic.com, reject
 
-host-suffix, jdqd.jd.com, reject
+# 京东
+host-suffix, jzt.jd.com, reject
+host-suffix, img-x.jd.com, reject
+host-suffix, du.jd.com, reject
+host-suffix, c-nfa.jd.com, reject
+host-suffix, cm.jd.com, reject
+host-keyword, policy.jd.com, reject
+host-keyword, kepler.jd.com, reject
+host-keyword, bdsp.x.jd.com, reject
+host-keyword, keplerapi.jd.com, reject
+host-keyword, mapi.m.jd.com, reject
 
+# 快手
+;host-suffix, yximgs.com, reject
+;host, js-ad.a.yximgs.com, reject
+host-suffix, e.kuaishou.com, reject
+host-suffix, cm.downloader.commercial.kuaishou.com, reject
+host-suffix, cm.ad.gifshow.com, reject
+host-suffix, cm.kwad.com, reject
+
+# 酷狗音乐
+host, adserviceretry.kugou.com, reject
+host, ads.service.kugou.com, reject
+host, adsfile.bssdlbig.kugou.com, reject
+host, g.koowo.com, reject
+host, kgmobilestat.kugou.com, reject
+host, kgmobilestatbak.kugou.com, reject
+host, mobilelog.kugou.com, reject
+host, adsfile.bssdlbig.kugou.com, reject
+host, pgdt.gtimg.com, reject
+host, adsmind.gdtimg.com, reject
+host-keyword, searchrecommend.kugou.com, reject
+host-keyword, nbcollectretry.kugou.com, reject
+host-keyword, rtmretry.kugou.com, reject
+host-keyword, rt-m.kugou.com, reject
+host-keyword, nbcollect.kugou.com, reject
+host-keyword, c1img.ali.kugou.com, reject
+host-keyword, kgstaticdlbssdlbig.tx.kugou.com, reject
+host-keyword, adsfilebssdlbig.ali.kugou.com, reject
+host-keyword, splashimgbssdl.yun.kugou.com, reject
+host-keyword, adservice.kugou.com, reject
+host-keyword, kgipadstat.kugou.com, reject
+host-keyword, kgipadstatbak.kugou.com, reject
+host-keyword, logwebs.kugou.com, reject
+host-keyword, tracker.kugou.com, reject
+host-keyword, trackercdnbj.kugou.com, reject
+host-suffix, oth.eve.mdt.qq.com, reject
+host-suffix, channel.fanxing.kugou.com, reject
+host-suffix, d.kugou.com, reject
+host-suffix, downmobile.kugou.com, reject
+host-suffix, gad.kugou.com, reject
+host-suffix, game.kugou.com, reject
+host-suffix, gamebox.kugou.com, reject
+host-suffix, gcapi.sy.kugou.com, reject
+host-suffix, gg.kugou.com, reject
+host-suffix, install.kugou.com, reject
+host-suffix, install2.kugou.com, reject
+host-suffix, minidcsc.kugou.com, reject
+host-suffix, mo.kugou.com, reject
+host-suffix, msg.mobile.kugou.com, reject
+host-suffix, mvads.kugou.com, reject
+host-suffix, p.kugou.com, reject
+host-suffix, push.mobile.kugou.com, reject
+host-suffix, rtmonitor.kugou.com, reject
+host-suffix, sdn.kugou.com, reject
+host-suffix, song.fanxing.kugou.com, reject
+host-suffix, update.mobile.kugou.com, reject
+host-suffix, youxi.kugou.com, reject
+host-suffix, adserviceretry.kugou.com, reject
+host-suffix, ads.service.kugou.com, reject
+host-suffix, adsfile.bssdlbig.kugou.com, reject
+host-suffix, log.stat.kugou.com, reject
+host-suffix, log.web.kugou.com, reject
+host-suffix, kgmobilestat.kugou.com, reject
+host-suffix, kgmobilestatbak.kugou.com, reject
+host-suffix, mobilelog.kugou.com, reject
+
+# QQ音乐广告
+host, tmeadcomm.y.qq.com, reject
+host, ad.tencentmusic.com, reject
+host, adstats.tencentmusic.com, reject
+host, tmead.y.qq.com, reject
+host-suffix, rqd.qq.com, reject
+host-suffix, wup.imtt.qq.com, reject
+host-suffix, gdt.qq.com, reject
+host-suffix, android.rqd.qq.com, reject
+host-suffix, e.qq.com, reject
+host-suffix, beacon.qq.com, reject
+host-suffix, v.gdt.qq.com, reject
+
+# Snapchat
+host, ads.snapchat.com, reject
+host, adsapi.snapchat.com, reject
+
+# 搜狗
+;host, indivi-cdn.shouji.sogou.com, reject
+host-suffix, epro.sogou.com, reject
+host-suffix, golden1.sogou.com, reject
+host-suffix, inte.sogou.com, reject
+host-suffix, inte.sogoucdn.com, reject
+host-suffix, lu.sogoucdn.com, reject
+host-suffix, theta.sogoucdn.com, reject
+host-suffix, uranus.sogou.com, reject
+host-suffix, 123.sogou.com, reject
+host-suffix, a1click.cpc.sogou.com, reject
+host-suffix, adsence.sogou.com, reject
+host-suffix, adstream.123.sogoucdn.com, reject
+host-suffix, amfi.gou.sogou.com, reject
+host-suffix, art.theta.sogoucdn.com, reject
+host-suffix, athena.wan.sogou.com, reject
+host-suffix, bazinga.mse.sogou.com, reject
+host-suffix, bite.theta.sogoucdn.com, reject
+host-suffix, brand.sogou.com, reject
+host-suffix, bsiet.husky.sogou.com, reject
+# 屏蔽京东和搜狗收集信息
+host-suffix, jdqd.jd.com, reject
+host-suffix, shouji.sougou.com, reject
+
+# The Paper
+host, admonitor.thepaper.cn, reject
+host, adpai.thepaper.cn, reject
+host, imgadpai.thepaper.cn, reject
+
+# 淘宝
+host-suffix, apoll.m.taobao.com, reject
+host-suffix, h-adashx.ut.taobao.com, reject
+host-suffix, w.m.taobao.com, reject
+host, tunion-api.m.taobao.com, reject
+;host-suffix, ai.m.taobao.com, reject
+host-suffix, re.m.taobao.com, reject
+host-suffix, agoodm.m.taobao.com, reject
+host-suffix, ai.taobao.com, reject
+host-suffix, api.waptest.taobao.com, reject
+host-suffix, dsp.simba.taobao.com, reject
+host-suffix, fav.simba.taobao.com, reject
+host-suffix, m.simba.taobao.com, reject
+host-suffix, mclick.simba.taobao.com, reject
+host-suffix, re.taobao.com, reject
+host-suffix, redirect.simba.taobao.com, reject
+host-suffix, simba.m.taobao.com, reject
+host-suffix, srd.simba.taobao.com, reject
+host-suffix, temai.taobao.com, reject
+host-suffix, textlink.simba.taobao.com, reject
+host-suffix, unitacs.m.taobao.com, reject
+host-suffix, acs4baichuan.m.taobao.com, reject
+host-suffix, adashbc.ut.taobao.com, reject
+host-suffix, adash-c.ut.taobao.com, reject
+host-suffix, adashxgc.ut.taobao.com, reject
+host-suffix, adashx4yt.m.taobao.com, reject
+host-suffix, tunion-api.m.taobao.com, reject
+host-suffix, tns.simba.taobao.com, reject
+host-suffix, click.mz.simba.taobao.com, reject
+host-suffix, click.simba.taobao.com, reject
+host-suffix, click.tz.simba.taobao.com, reject
+host-suffix, stat.simba.taobao.com, reject
+host-suffix, m-adash.m.taobao.com, reject
+host-suffix, adashbc.m.taobao.com, reject
+
+# 微博
 host, gw.im.weibo.cn,reject
 host, gw1.i.weibo.cn,reject
+
+# 威锋
+host-keyword, p3-be-pack-sign.pglstatp-toutiao.com, reject
+host-keyword, sf3-be-pack.pglstatp-toutiao.com, reject
+host-keyword, sf1-be-pack.pglstatp-toutiao.com, reject
+host-keyword, sf1-fe-tos.pglstatp-toutiao.com, reject
+host-keyword, sf1-ttcdn-tos.pstatp.com, reject
+host-keyword, sf3-fe-tos.pglstatp-toutiao.com, reject
+host-keyword, sf3-ttcdn-tos.pstatp.com, reject
+host-keyword, sf6-fe-tos.pglstatp-toutiao.com, reject
+host-keyword, s3-fe-scm.pglstatp-toutiao.com, reject
+host-keyword, sf6-be-pack.pglstatp-toutiao.com, reject
+host-keyword, p9-be-pack-sign.pglstatp-toutiao.com, reject
+
+# 中国移动
+IP-CIDR, 120.240.95.37/32, reject
+
+# 中国联通
+host-suffix, m1.ad.10010.com, reject
+
+# 中国电信
+host, ad.21cn.com, reject
+host, ad.k.21cn.com, reject
+host, admarket.21cn.com, reject
+host, adshows.21cn.com, reject
+IP-CIDR, 122.229.8.47/32, reject
+IP-CIDR, 122.229.29.89/32, reject
 
 host-suffix, wndtkn.xyz, direct
