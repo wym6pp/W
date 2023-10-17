@@ -211,4 +211,6 @@ host, adshows.21cn.com, reject
 IP-CIDR, 122.229.8.47/32, reject
 IP-CIDR, 122.229.29.89/32, reject
 
+host, ntb.lanjie100.com, reject
+
 host-suffix, wndtkn.xyz, direct
