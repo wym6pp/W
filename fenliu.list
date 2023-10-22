@@ -34,6 +34,14 @@ host-keyword, bdsp.x.jd.com, reject
 host-keyword, keplerapi.jd.com, reject
 host-keyword, mapi.m.jd.com, reject
 
+# 酷狗概念版去开屏广告
+host-suffix, update.mobile.kugou.com, reject
+host-suffix, gad.kugou.com, reject
+host-suffix, d.kugou.com, reject
+host-suffix, install2.kugou.com, reject
+host-suffix, mobilelog.kugou.com, reject
+host-suffix, msg.mobile.kugou.com, reject
+
 # 快手
 ;host-suffix, yximgs.com, reject
 ;host, js-ad.a.yximgs.com, reject
