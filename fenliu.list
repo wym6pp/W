@@ -156,4 +156,6 @@ IP-CIDR, 122.229.29.89/32, reject
 
 host-suffix, umeng.com, reject
 
+host-suffix, open.e.kuaishou.cn, reject
+
 host-suffix, wndtkn.xyz, direct
