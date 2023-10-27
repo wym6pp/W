@@ -22,29 +22,7 @@ host, huyafile.msstatic.com, reject
 host, livewebbs2.msstatic.com, reject
 host, business.msstatic.com, reject
 
-# 京东
-host-suffix, jzt.jd.com, reject
-host-suffix, img-x.jd.com, reject
-host-suffix, du.jd.com, reject
-host-suffix, c-nfa.jd.com, reject
-host-suffix, cm.jd.com, reject
-host-keyword, policy.jd.com, reject
-host-keyword, kepler.jd.com, reject
-host-keyword, bdsp.x.jd.com, reject
-host-keyword, keplerapi.jd.com, reject
-host-keyword, mapi.m.jd.com, reject
-
-# 酷狗概念版去开屏广告
-host-suffix, update.mobile.kugou.com, reject
-host-suffix, gad.kugou.com, reject
-host-suffix, d.kugou.com, reject
-host-suffix, install2.kugou.com, reject
-host-suffix, mobilelog.kugou.com, reject
-host-suffix, msg.mobile.kugou.com, reject
-
 # 快手
-;host-suffix, yximgs.com, reject
-;host, js-ad.a.yximgs.com, reject
 host-suffix, e.kuaishou.com, reject
 host-suffix, cm.downloader.commercial.kuaishou.com, reject
 host-suffix, cm.ad.gifshow.com, reject
@@ -68,7 +46,6 @@ host, ads.snapchat.com, reject
 host, adsapi.snapchat.com, reject
 
 # 搜狗
-;host, indivi-cdn.shouji.sogou.com, reject
 host-suffix, epro.sogou.com, reject
 host-suffix, golden1.sogou.com, reject
 host-suffix, inte.sogou.com, reject
