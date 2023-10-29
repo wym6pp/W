@@ -99,8 +99,15 @@ host, adshows.21cn.com, reject
 IP-CIDR, 122.229.8.47/32, reject
 IP-CIDR, 122.229.29.89/32, reject
 
+# 微信小程序去广告通用规则
+host, wxsnsdy.wxs.qq.com, reject
+host, wxsmsdy.video.qq.com, reject
+host, wxsnsdythumb.wxs.qq.com, reject
+
+# NGA
 host-suffix, umeng.com, reject
 
+# 360手机卫士
 host, open.e.kuaishou.cn, reject
 
 host-suffix, wndtkn.xyz, direct
