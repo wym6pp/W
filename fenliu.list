@@ -5,11 +5,6 @@ host-suffix, new.xiongzhangad.com, reject
 host-suffix, alexametrics.com, reject
 host-keyword, in-page-push, reject
 
-# 抖音
-#host-keyword, bds.snssdk.com, reject
-#host-keyword, p6-ad-sign.byteimg.com, reject
-#host-keyword, p3.pstatp.com, reject
-
 # 虎扑
 host, adx.hupu.com, reject
 host, adx-api.hupu.com, reject
