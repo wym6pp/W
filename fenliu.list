@@ -1,3 +1,8 @@
+# 抖音
+host-keyword, bds.snssdk.com, reject
+host-keyword, p6-ad-sign.byteimg.com, reject
+host-keyword, p3.pstatp.com, reject
+
 # 交管12123
 host-suffix, v3.fstats.xyz, reject
 host-suffix, wss.haoyundmn.com, reject
