@@ -106,6 +106,8 @@ host, wxsnsdythumb.wxs.qq.com, reject
 
 # NGA
 host-suffix, umeng.com, reject
+host-suffix, umengcloud.com, reject
+host-suffix, tagtic.cn, reject
 
 # 360手机卫士
 host, open.e.kuaishou.cn, reject
