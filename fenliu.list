@@ -109,12 +109,15 @@ host, wxsnsdy.wxs.qq.com, reject
 host, wxsmsdy.video.qq.com, reject
 host, wxsnsdythumb.wxs.qq.com, reject
 
+# 360手机卫士
+host, open.e.kuaishou.cn, reject
+
 # NGA
 host-suffix, umeng.com, reject
 host-suffix, umengcloud.com, reject
 host-suffix, tagtic.cn, reject
 
-# 360手机卫士
-host, open.e.kuaishou.cn, reject
+# 拦截100
+host, ntb.lanjie100.com, reject
 
 host-suffix, wndtkn.xyz, direct
