@@ -1,6 +1,3 @@
-# 中国电信
-host, appgoad.189.cn, reject
-
 # 交管12123
 host-suffix, v3.fstats.xyz, reject
 host-suffix, wss.haoyundmn.com, reject
@@ -101,6 +98,8 @@ host, admarket.21cn.com, reject
 host, adshows.21cn.com, reject
 IP-CIDR, 122.229.8.47/32, reject
 IP-CIDR, 122.229.29.89/32, reject
+
+host, appgoad.189.cn, reject
 
 # https://www.x1hub.com/
 HOST-SUFFIX, jads.co, REJECT
