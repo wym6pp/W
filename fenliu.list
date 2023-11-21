@@ -1,3 +1,6 @@
+# 中国电信
+host, appgoad.189.cn, reject
+
 # 交管12123
 host-suffix, v3.fstats.xyz, reject
 host-suffix, wss.haoyundmn.com, reject
