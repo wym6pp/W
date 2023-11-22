@@ -126,3 +126,5 @@ host-suffix, tagtic.cn, reject
 host, ntb.lanjie100.com, reject
 
 host-suffix, wndtkn.xyz, direct
+
+host, vv.video.qq.com, direct
