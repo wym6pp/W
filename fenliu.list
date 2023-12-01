@@ -125,4 +125,6 @@ host-suffix, tagtic.cn, reject
 # 拦截100
 host, ntb.lanjie100.com, reject
 
+host-keyword, adv.ccb.com, direct
+
 host-suffix, wndtkn.xyz, direct
