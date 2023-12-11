@@ -119,8 +119,6 @@ host, ntb.lanjie100.com, reject
 
 host-keyword, adv.ccb.com, direct
 
-host-keyword, vv6.video.qq.com, direct
-
 host-suffix, bard.google.com, OpenAI
 
 host-keyword, pianyuan.org, direct
