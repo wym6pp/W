@@ -1,3 +1,6 @@
+# 滴滴出行
+host, gwp.xiaojukeji.com, reject
+
 # 交管12123
 host-suffix, v3.fstats.xyz, reject
 host-suffix, wss.haoyundmn.com, reject
