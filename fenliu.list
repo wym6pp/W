@@ -99,7 +99,7 @@ host, ntb.lanjie100.com, reject
 
 host-keyword, adv.ccb.com, direct
 
-host-suffix, bard.google.com, OpenAI
+host-suffix, bard.google.com, AI
 
 host-keyword, pianyuan.org, direct
 
