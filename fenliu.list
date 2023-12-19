@@ -97,6 +97,10 @@ host-suffix, tagtic.cn, reject
 # 拦截100
 host, ntb.lanjie100.com, reject
 
+host, afd.baidu.com, direct
+host, afdconf.baidu.com, direct
+host, lc.map.baidu.com, direct
+
 host-keyword, adv.ccb.com, direct
 
 host-suffix, bard.google.com, AI
