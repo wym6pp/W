@@ -101,6 +101,18 @@ host, afd.baidu.com, direct
 host, afdconf.baidu.com, direct
 host, lc.map.baidu.com, direct
 
+host, ad.zijieapi.com, direct
+host, i.snssdk.com, direct
+host, is.snssdk.com, direct
+host-suffix, miaozhen.com, direct
+host-keyword, -ad-sign.byteimg.com, direct
+host-keyword, -tos.pstatp.com, direct
+host-keyword, asiad.byteactivity, direct
+host-keyword, pangolin-sdk-toutiao, direct
+host-keyword, pangolin.snssdk.com, direct
+host-keyword, pglstatp-toutiao, direct
+host-keyword, video-cn.snssdk.com, direct
+
 host-keyword, adv.ccb.com, direct
 
 host-suffix, bard.google.com, AI
