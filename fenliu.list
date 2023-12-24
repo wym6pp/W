@@ -101,6 +101,7 @@ host, afd.baidu.com, direct
 host, afdconf.baidu.com, direct
 host, lc.map.baidu.com, direct
 
+host, i.snssdk.com, direct
 host-keyword, -tos.pstatp.com, direct
 
 host-keyword, adv.ccb.com, direct
