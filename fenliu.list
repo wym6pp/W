@@ -55,10 +55,6 @@ host, admonitor.thepaper.cn, reject
 host, adpai.thepaper.cn, reject
 host, imgadpai.thepaper.cn, reject
 
-# 微博
-#host, gw.im.weibo.cn,reject
-#host, gw1.i.weibo.cn,reject
-
 # 威锋
 # 极光 - 广告服务商
 host-suffix, jiguang.cn, reject
@@ -100,10 +96,6 @@ host, ntb.lanjie100.com, reject
 host, afd.baidu.com, direct
 host, afdconf.baidu.com, direct
 host, lc.map.baidu.com, direct
-
-#host, i.snssdk.com, direct
-#host, is.snssdk.com, direct
-#host-keyword, -tos.pstatp.com, direct
 
 host-keyword, adv.ccb.com, direct
 
