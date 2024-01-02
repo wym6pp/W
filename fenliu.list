@@ -99,8 +99,6 @@ host, lc.map.baidu.com, direct
 
 host-keyword, adv.ccb.com, direct
 
-host, p14-buy.itunes.apple.com, direct
-
 host-suffix, bard.google.com, AI
 
 host-keyword, pianyuan.org, direct
