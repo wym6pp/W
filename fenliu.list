@@ -4,7 +4,7 @@ host-suffix, wss.haoyundmn.com, reject
 host-suffix, new.xiongzhangad.com, reject
 host-suffix, alexametrics.com, reject
 host-keyword, in-page-push, reject
-
+宋
 # 虎扑
 host, adx.hupu.com, reject
 host, adx-api.hupu.com, reject
