@@ -1,3 +1,7 @@
+# 哔哩哔哩 #如果哔哩哔哩重写经常失效
+HOST,mall.bilibili.com,REJECT
+HOST,passport.bilibili.com,REJECT
+
 # 交管12123
 host-suffix, v3.fstats.xyz, reject
 host-suffix, wss.haoyundmn.com, reject
