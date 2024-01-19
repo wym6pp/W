@@ -102,6 +102,11 @@ host, wxsnsdythumb.wxs.qq.com, reject
 # 360手机卫士
 host, open.e.kuaishou.cn, reject
 
+# NGA
+host-suffix, umeng.com, reject
+host-suffix, umengcloud.com, reject
+host-suffix, tagtic.cn, reject
+
 host, afd.baidu.com, direct
 host, afdconf.baidu.com, direct
 host, lc.map.baidu.com, direct
