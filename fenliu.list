@@ -111,6 +111,8 @@ host, afd.baidu.com, direct
 host, afdconf.baidu.com, direct
 host, lc.map.baidu.com, direct
 
+host, gemini.google.com, AI
+
 host-keyword, adv.ccb.com, direct
 
 host-keyword, pianyuan.org, direct
