@@ -84,16 +84,6 @@ IP-CIDR, 120.240.95.37/32, reject
 # 中国联通
 host-suffix, m1.ad.10010.com, reject
 
-# 中国电信
-host, ad.21cn.com, reject
-host, ad.k.21cn.com, reject
-host, admarket.21cn.com, reject
-host, adshows.21cn.com, reject
-IP-CIDR, 122.229.8.47/32, reject
-IP-CIDR, 122.229.29.89/32, reject
-
-host, appgoad.189.cn, reject
-
 # 微信小程序去广告通用规则
 host, wxsnsdy.wxs.qq.com, reject
 host, wxsmsdy.video.qq.com, reject
