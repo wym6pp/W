@@ -9,11 +9,6 @@ host-suffix, new.xiongzhangad.com, reject
 host-suffix, alexametrics.com, reject
 host-keyword, in-page-push, reject
 
-# 虎扑
-host, adx.hupu.com, reject
-host, adx-api.hupu.com, reject
-host, goblin.hupu.com, reject
-
 # 虎牙直播 开屏广告
 host, pp-cdnfile2pcdn.msstatic.com, reject
 host, livewebbs2pcdn.msstatic.com, reject
