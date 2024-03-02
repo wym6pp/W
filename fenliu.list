@@ -92,8 +92,6 @@ host-suffix, umeng.com, reject
 host-suffix, umengcloud.com, reject
 host-suffix, tagtic.cn, reject
 
-host, gemini.google.com, AI
-
 host, afd.baidu.com, direct
 host, afdconf.baidu.com, direct
 host, lc.map.baidu.com, direct
