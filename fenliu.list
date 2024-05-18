@@ -2,13 +2,6 @@
 HOST,mall.bilibili.com,REJECT
 HOST,passport.bilibili.com,REJECT
 
-# 交管12123
-host-suffix, v3.fstats.xyz, reject
-host-suffix, wss.haoyundmn.com, reject
-host-suffix, new.xiongzhangad.com, reject
-host-suffix, alexametrics.com, reject
-host-keyword, in-page-push, reject
-
 # 快手
 host-suffix, e.kuaishou.com, reject
 host-suffix, cm.downloader.commercial.kuaishou.com, reject
