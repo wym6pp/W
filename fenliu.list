@@ -9,13 +9,6 @@ host-suffix, new.xiongzhangad.com, reject
 host-suffix, alexametrics.com, reject
 host-keyword, in-page-push, reject
 
-# 虎牙直播 开屏广告
-host, pp-cdnfile2pcdn.msstatic.com, reject
-host, livewebbs2pcdn.msstatic.com, reject
-host, huyafile.msstatic.com, reject
-host, livewebbs2.msstatic.com, reject
-host, business.msstatic.com, reject
-
 # 快手
 host-suffix, e.kuaishou.com, reject
 host-suffix, cm.downloader.commercial.kuaishou.com, reject
