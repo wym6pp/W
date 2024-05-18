@@ -32,33 +32,9 @@ host-suffix, d.meituan.net, reject
 host, ads.snapchat.com, reject
 host, adsapi.snapchat.com, reject
 
-# 搜狗
-host-suffix, epro.sogou.com, reject
-host-suffix, golden1.sogou.com, reject
-host-suffix, inte.sogou.com, reject
-host-suffix, inte.sogoucdn.com, reject
-host-suffix, lu.sogoucdn.com, reject
-host-suffix, theta.sogoucdn.com, reject
-host-suffix, uranus.sogou.com, reject
-host-suffix, 123.sogou.com, reject
-host-suffix, a1click.cpc.sogou.com, reject
-host-suffix, adsence.sogou.com, reject
-host-suffix, adstream.123.sogoucdn.com, reject
-host-suffix, amfi.gou.sogou.com, reject
-host-suffix, art.theta.sogoucdn.com, reject
-host-suffix, athena.wan.sogou.com, reject
-host-suffix, bazinga.mse.sogou.com, reject
-host-suffix, bite.theta.sogoucdn.com, reject
-host-suffix, brand.sogou.com, reject
-host-suffix, bsiet.husky.sogou.com, reject
 # 屏蔽京东和搜狗收集信息
 host-suffix, jdqd.jd.com, reject
 host-suffix, shouji.sougou.com, reject
-
-# The Paper
-host, admonitor.thepaper.cn, reject
-host, adpai.thepaper.cn, reject
-host, imgadpai.thepaper.cn, reject
 
 # 威锋
 # 极光 - 广告服务商
