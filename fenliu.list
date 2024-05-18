@@ -2,12 +2,6 @@
 HOST,mall.bilibili.com,REJECT
 HOST,passport.bilibili.com,REJECT
 
-# 快手
-host-suffix, e.kuaishou.com, reject
-host-suffix, cm.downloader.commercial.kuaishou.com, reject
-host-suffix, cm.ad.gifshow.com, reject
-host-suffix, cm.kwad.com, reject
-
 # 美团
 host, flowplus.meituan.net, reject
 host-suffix, analytics.meituan.net, reject
