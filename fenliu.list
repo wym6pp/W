@@ -36,6 +36,8 @@ host, lc.map.baidu.com, direct
 
 host-keyword, adv.ccb.com, direct
 
+host-suffix, mall.icbc.com.cn, direct
+
 host-keyword, pianyuan.org, direct
 
 host-keyword, wndtkn.xyz, direct
