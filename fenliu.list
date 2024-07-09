@@ -16,9 +16,6 @@ host-suffix, jiguang.cn, reject
 # 艾狄墨搏 - 广告服务商
 host-suffix, admobile.top, reject
 
-# 中国移动
-IP-CIDR, 120.240.95.37/32, reject
-
 # 360手机卫士
 host, open.e.kuaishou.cn, reject
 
