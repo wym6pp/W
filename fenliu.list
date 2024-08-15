@@ -24,6 +24,8 @@ host-suffix, umeng.com, reject
 host-suffix, umengcloud.com, reject
 host-suffix, tagtic.cn, reject
 
+ip-cidr, 180.76.76.200/32, direct
+
 host-keyword, adv.ccb.com, direct
 
 host-suffix, mall.icbc.com.cn, direct
