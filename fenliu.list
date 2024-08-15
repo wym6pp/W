@@ -24,10 +24,6 @@ host-suffix, umeng.com, reject
 host-suffix, umengcloud.com, reject
 host-suffix, tagtic.cn, reject
 
-host, afd.baidu.com, direct
-host, afdconf.baidu.com, direct
-host, lc.map.baidu.com, direct
-
 host-keyword, adv.ccb.com, direct
 
 host-suffix, mall.icbc.com.cn, direct
