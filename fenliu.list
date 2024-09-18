@@ -9,14 +9,6 @@ ip-cidr, 139.199.240.12/32, reject
 ip-cidr, 116.85.3.37/32, reject
 ip-cidr, 139.199.240.15/32, reject
 
-# Snapchat
-host, ads.snapchat.com, reject
-host, adsapi.snapchat.com, reject
-
-# 屏蔽京东和搜狗收集信息
-host-suffix, jdqd.jd.com, reject
-host-suffix, shouji.sougou.com, reject
-
 # 威锋
 # 极光 - 广告服务商
 host-suffix, jiguang.cn, reject
