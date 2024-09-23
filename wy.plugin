@@ -10,7 +10,7 @@ DOMAIN-SUFFIX,getui.com,DIRECT
 ^https?:\/\/api\.smart\.jd\.com\/c\/service\/getLoadingLinks reject-200
 
 [Script]
-
+http-response ^https?:\/\/.*appraven\.net\/appraven\/graphql script-path=https://gist.githubusercontent.com/ddgksf2013/562f8fd6a40be92d7c8b358aa25eab3f/raw/appraven.vip.js, requires-body=true, timeout=60, tag=appraven.vip
 
 [MITM]
-hostname = api.smart.jd.com
+hostname = api.smart.jd.com, *appraven.net
