@@ -1,7 +1,8 @@
 #!name = wy
 
 [Rule]
-# 360安全卫士开屏广告
+# 360安全卫士
+# 开屏广告
 DOMAIN,open.e.kuaishou.cn,REJECT
 # 代理更新直连
 DOMAIN-KEYWORD,wndtkn.xyz,DIRECT
@@ -12,6 +13,8 @@ DOMAIN-SUFFIX,getui.com,DIRECT
 
 [Rewrite]
 # 京东小家
+# 开屏广告
+# hostname = api.smart.jd.com
 ^https?:\/\/api\.smart\.jd\.com\/c\/service\/getLoadingLinks reject-200
 
 [MITM]
