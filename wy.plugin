@@ -1,13 +1,17 @@
 #!name = wy
 
 [Rule]
-#360安全卫士
+# 360安全卫士开屏广告
 DOMAIN,open.e.kuaishou.cn,REJECT
+# 代理更新直连
 DOMAIN-KEYWORD,wndtkn.xyz,DIRECT
+#百度地图搜索放行
 IP-CIDR,180.76.76.200/32,DIRECT
+
 DOMAIN-SUFFIX,getui.com,DIRECT
 
 [Rewrite]
+# 京东小家
 ^https?:\/\/api\.smart\.jd\.com\/c\/service\/getLoadingLinks reject-200
 
 [MITM]
