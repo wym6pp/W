@@ -9,8 +9,5 @@ DOMAIN-SUFFIX,getui.com,DIRECT
 [Rewrite]
 ^https?:\/\/api\.smart\.jd\.com\/c\/service\/getLoadingLinks reject-200
 
-[Script]
-
-
 [MITM]
 hostname = api.smart.jd.com
