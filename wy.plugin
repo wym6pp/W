@@ -1,6 +1,7 @@
 #!name = wy
 
 [Rule]
+#360安全卫士
 DOMAIN,open.e.kuaishou.cn,REJECT
 DOMAIN-KEYWORD,wndtkn.xyz,DIRECT
 IP-CIDR,180.76.76.200/32,DIRECT
