@@ -1,1 +1,16 @@
+#!name = wy
 
+[Rule]
+DOMAIN,open.e.kuaishou.cn,REJECT
+DOMAIN-KEYWORD,wndtkn.xyz,DIRECT
+IP-CIDR,180.76.76.200/32,DIRECT
+DOMAIN-SUFFIX,getui.com,DIRECT
+
+[Rewrite]
+^https?:\/\/api\.smart\.jd\.com\/c\/service\/getLoadingLinks reject-200
+
+[Script]
+
+
+[MITM]
+hostname = api.smart.jd.com
