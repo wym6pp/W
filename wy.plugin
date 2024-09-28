@@ -4,7 +4,7 @@
 # 360安全卫士 开屏广告
 DOMAIN,open.e.kuaishou.cn,REJECT
 # 代理更新直连
-DOMAIN-KEYWORD,wndtkn.xyz,DIRECT
+DOMAIN-SUFFIX,wndtkn.xyz,DIRECT
 #百度地图搜索放行
 IP-CIDR,180.76.76.200/32,DIRECT
 
