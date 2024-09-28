@@ -10,6 +10,8 @@ IP-CIDR,180.76.76.200/32,DIRECT
 
 DOMAIN-SUFFIX,getui.com,DIRECT
 
+DOMAIN-KEYWORD,emby,DIRECT
+
 [Rewrite]
 # 京东小家 开屏广告
 # hostname = api.smart.jd.com
