@@ -18,7 +18,7 @@ IP-CIDR,180.76.76.200/32,DIRECT
 # 最会买误杀
 DOMAIN,api.zuihuimai.com,DIRECT
 
-#DOMAIN-SUFFIX,getui.com,DIRECT
+DOMAIN-SUFFIX,getui.com,DIRECT
 # 代理更新直连
 DOMAIN-SUFFIX,wndtkn.xyz,DIRECT
 # emby直连
