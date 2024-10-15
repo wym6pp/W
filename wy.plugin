@@ -6,6 +6,13 @@ DOMAIN,open.e.kuaishou.cn,REJECT
 # NGA 开屏广告
 DOMAIN-KEYWORD,tagtic,REJECT
 DOMAIN-KEYWORD,umeng,REJECT
+# 中国电信
+DOMAIN, ad.21cn.com, REJECT
+DOMAIN, ad.k.21cn.com, REJECT
+DOMAIN, admarket.21cn.com, REJECT
+DOMAIN, adshows.21cn.com, REJECT
+IP-CIDR, 122.229.8.47/32, REJECT, no-resolve
+IP-CIDR, 122.229.29.89/32, REJECT, no-resolve
 # 代理更新直连
 DOMAIN-SUFFIX,wndtkn.xyz,DIRECT
 # 百度地图搜索放行
