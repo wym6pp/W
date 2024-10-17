@@ -3,8 +3,8 @@
 [Rule]
 # 代理更新直连
 DOMAIN-SUFFIX,wndtkn.xyz,DIRECT
-# emby直连
-DOMAIN-KEYWORD,emby,DIRECT
+# emby
+DOMAIN-KEYWORD,emby,台湾节点
 # 百度地图搜索放行
 IP-CIDR,180.76.76.200/32,DIRECT
 # 最会买误杀
