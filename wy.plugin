@@ -11,8 +11,6 @@ IP-CIDR,180.76.76.200/32,DIRECT, no-resolve
 DOMAIN,api.zuihuimai.com,DIRECT
 
 DOMAIN-SUFFIX,getui.com,DIRECT
-# 招商银行
-IP-CIDR,99.6.130.204/32,DIRECT, no-resolve
 # 360安全卫士 开屏广告
 DOMAIN,open.e.kuaishou.cn,REJECT
 # NGA 开屏广告
