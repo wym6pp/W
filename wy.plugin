@@ -20,9 +20,12 @@ DOMAIN-KEYWORD,umeng,REJECT
 [Rewrite]
 # 京东小家 开屏广告 //api.smart.jd.com
 ^https?:\/\/api\.smart\.jd\.com\/c\/service\/getLoadingLinks reject-200
+# 酷迪咖啡 //gateway.abite.com, gateway.cotticoffee.com
+^https?:\/\/gateway\.abite\.com\/cotti-capi\/customer\/position\/list\?code=cotti-launch-window - reject-200
+^https?:\/\/gateway\.cotticoffee\.com\/cotti-capi\/customer\/position\/list\?code=cotti-launch-window - reject-200
 # 小米商城 //api.m.mi.com, shop-api.retail.mi.com
 ^https:\/\/api\.m\.mi\.com\/v1\/order\/expressView response-body-json-del data.bottom.ad_info
 ^https:\/\/api\.m\.mi\.com\/(?:v1\/(?:app\/popup_info|home\/page_feed|misearch\/search_input)|v2\/search\/search_default) reject-dict
 ^https:\/\/shop-api\.retail\.mi\.com\/mtop\/navi\/(?:rec\/merge\/|skywheel\/mishop\/splash) reject-dict
 [MITM]
-hostname = api.smart.jd.com, shop-api.retail.mi.com
+hostname = api.smart.jd.com, gateway.abite.com, gateway.cotticoffee.com, shop-api.retail.mi.com
