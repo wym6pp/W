@@ -12,7 +12,7 @@ IP-CIDR,180.76.76.200/32,DIRECT, no-resolve
 # 最会买误杀
 DOMAIN,api.zuihuimai.com,DIRECT
 
-DOMAIN-SUFFIX,getui.com,PROXY
+#DOMAIN-SUFFIX,getui.com,DIRECT
 # 360安全卫士 开屏广告
 DOMAIN,open.e.kuaishou.cn,REJECT
 # NGA 开屏广告
