@@ -20,6 +20,7 @@ DOMAIN-KEYWORD,tagtic,REJECT
 DOMAIN-KEYWORD,umeng,REJECT
 
 [Rewrite]
+^https:\/\/api\.xiachufang\.com\/v2\/config\/get\.json$ reject
 # 京东小家 开屏广告 //api.smart.jd.com
 ^https?:\/\/api\.smart\.jd\.com\/c\/service\/getLoadingLinks reject-200
 # 酷迪咖啡 //gateway.abite.com, gateway.cotticoffee.com
