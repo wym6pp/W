@@ -5,8 +5,6 @@
 DOMAIN-KEYWORD,emby,PROXY
 # 代理更新直连
 DOMAIN-SUFFIX,wndtkn.xyz,DIRECT
-# 防止TG加载转圈
-#IP-CIDR,95.161.76.100/31,REJECT-NO-DROP,no-resolve
 # 百度地图搜索放行
 IP-CIDR,180.76.76.200/32,DIRECT, no-resolve
 # 最会买误杀
