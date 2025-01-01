@@ -28,7 +28,5 @@ DOMAIN-KEYWORD,umeng,REJECT
 ^https:\/\/api\.m\.mi\.com\/v1\/order\/expressView response-body-json-del data.bottom.ad_info
 ^https:\/\/api\.m\.mi\.com\/(?:v1\/(?:app\/popup_info|home\/page_feed|misearch\/search_input)|v2\/search\/search_default) reject-dict
 ^https:\/\/shop-api\.retail\.mi\.com\/mtop\/navi\/(?:rec\/merge\/|skywheel\/mishop\/splash) reject-dict
-
-^https?:\/\/static\.95508\.com\/mmg\/images\/ads\/(?!2024031) reject-dict
 [MITM]
 hostname = api.smart.jd.com, gateway.abite.com, gateway.cotticoffee.com, shop-api.retail.mi.com
