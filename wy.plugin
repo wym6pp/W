@@ -4,7 +4,7 @@
 # emby
 DOMAIN-KEYWORD,emby,PROXY
 # 代理更新直连
-#DOMAIN-SUFFIX,wndtkn.xyz,DIRECT
+DOMAIN-SUFFIX,wndtkn.xyz,DIRECT
 # 百度地图搜索放行
 IP-CIDR,180.76.76.200/32,DIRECT, no-resolve
 # 最会买误杀
