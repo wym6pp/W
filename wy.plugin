@@ -13,6 +13,7 @@ DOMAIN,api.zuihuimai.com,DIRECT
 DOMAIN-SUFFIX,getui.com,DIRECT
 # 360安全卫士 开屏广告
 DOMAIN,open.e.kuaishou.cn,REJECT
+DOMAIN,commercial.shouji.360.cn,REJECT
 # NGA 开屏广告
 DOMAIN-KEYWORD,tagtic,REJECT
 DOMAIN-KEYWORD,umeng,REJECT
