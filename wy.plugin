@@ -17,7 +17,7 @@ DOMAIN,commercial.shouji.360.cn,REJECT
 DOMAIN-KEYWORD,tagtic,REJECT
 DOMAIN-KEYWORD,umeng,REJECT
 
-#AND, ((PROTOCOL, STUN), (DOMAIN-KEYWORD, bilibili.)), REJECT
+AND, ((PROTOCOL, STUN), (DOMAIN-KEYWORD, bilibili.)), REJECT
 
 [Rewrite]
 ^https:\/\/api\.xiachufang\.com\/v2\/config\/get\.json$ reject
