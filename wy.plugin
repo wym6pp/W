@@ -3,6 +3,7 @@
 [Rule]
 # emby
 DOMAIN-KEYWORD,emby,PROXY
+DOMAIN-KEYWORD,pianyuan,DIRECT
 AND, ((PROTOCOL, STUN), (DOMAIN-KEYWORD, bilibili.)), REJECT
 # 百度地图搜索放行
 IP-CIDR,180.76.76.200/32,DIRECT, no-resolve
