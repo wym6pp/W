@@ -4,7 +4,6 @@
 # emby
 DOMAIN-KEYWORD,emby,PROXY
 DOMAIN-KEYWORD,pianyuan,DIRECT
-AND, ((PROTOCOL, STUN), (DOMAIN-KEYWORD, bilibili.)), REJECT
 # 百度地图搜索放行
 IP-CIDR,180.76.76.200/32,DIRECT, no-resolve
 # 最会买误杀
@@ -17,6 +16,8 @@ DOMAIN,commercial.shouji.360.cn,REJECT
 # NGA 开屏广告
 DOMAIN-KEYWORD,tagtic,REJECT
 DOMAIN-KEYWORD,umeng,REJECT
+
+AND, ((PROTOCOL, STUN), (DOMAIN-KEYWORD, bilibili.)), REJECT
 
 [Rewrite]
 ^https:\/\/api\.xiachufang\.com\/v2\/config\/get\.json$ reject
