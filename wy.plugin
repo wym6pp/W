@@ -22,8 +22,6 @@ AND, ((PROTOCOL, STUN), (DOMAIN-KEYWORD, bilibili.)), REJECT
 
 [Rewrite]
 ^https:\/\/api\.xiachufang\.com\/v2\/config\/get\.json$ reject
-# 发现精彩 开屏广告 主机名之前有
-^https?:\/\/static\.95508\.com\/mmg\/images\/ads reject-dict
 # 京东小家 开屏广告
 # hostname = api.smart.jd.com
 ^https?:\/\/api\.smart\.jd\.com\/c\/service\/getLoadingLinks reject-200
