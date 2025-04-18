@@ -22,6 +22,7 @@ AND, ((PROTOCOL, STUN), (DOMAIN-KEYWORD, bilibili.)), REJECT
 
 [Rewrite]
 ^https:\/\/api\.xiachufang\.com\/v2\/config\/get\.json$ reject
+^https?:\/\/m\.360buyimg\.com\/mobilecms\/s1125x2436_jfs reject-200
 # 京东小家 开屏广告
 # hostname = api.smart.jd.com
 ^https?:\/\/api\.smart\.jd\.com\/c\/service\/getLoadingLinks reject-200
@@ -40,4 +41,4 @@ AND, ((PROTOCOL, STUN), (DOMAIN-KEYWORD, bilibili.)), REJECT
 ^https:\/\/api\.m\.mi\.com\/(?:v1\/(?:app\/popup_info|home\/page_feed|misearch\/search_input)|v2\/search\/search_default) reject-dict
 ^https:\/\/shop-api\.retail\.mi\.com\/mtop\/navi\/(?:rec\/merge\/|skywheel\/mishop\/splash) reject-dict
 [MITM]
-hostname = api.smart.jd.com, gateway.abite.com, gateway.cotticoffee.com, iobs.pingan.com.cn, hcz-member.pingan.com.cn, shop-api.retail.mi.com
+hostname = m.360buyimg.com, api.smart.jd.com, gateway.abite.com, gateway.cotticoffee.com, iobs.pingan.com.cn, hcz-member.pingan.com.cn, shop-api.retail.mi.com
