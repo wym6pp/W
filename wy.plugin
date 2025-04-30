@@ -30,15 +30,10 @@ AND, ((PROTOCOL, STUN), (DOMAIN-KEYWORD, bilibili.)), REJECT
 # hostname = gateway.abite.com, gateway.cotticoffee.com
 ^https?:\/\/gateway\.abite\.com\/cotti-capi\/customer\/position\/list\?code=cotti-launch-window - reject-200
 ^https?:\/\/gateway\.cotticoffee\.com\/cotti-capi\/customer\/position\/list\?code=cotti-launch-window - reject-200
-# 平安好车主
-# hostname = iobs.pingan.com.cn, hcz-member.pingan.com.cn
-^https?:\/\/iobs\.pingan\.com\.cn\/download\/bweb-per-sf-prd\/bweb reject-200
-^https?:\/\/iobs\.pingan\.com\.cn\/download\/icore-aops-base-dmz-prd\/(YourSystemName|icore-apps-ad) reject-200
-^https?:\/\/hcz-member\.pingan\.com\.cn\/micro-api\/homepage\/do\/app\/popbox\/getTopPopBox reject
 # 小米商城
 # hostname = api.m.mi.com, shop-api.retail.mi.com
 ^https:\/\/api\.m\.mi\.com\/v1\/order\/expressView response-body-json-del data.bottom.ad_info
 ^https:\/\/api\.m\.mi\.com\/(?:v1\/(?:app\/popup_info|home\/page_feed|misearch\/search_input)|v2\/search\/search_default) reject-dict
 ^https:\/\/shop-api\.retail\.mi\.com\/mtop\/navi\/(?:rec\/merge\/|skywheel\/mishop\/splash) reject-dict
 [MITM]
-hostname = m.360buyimg.com, api.smart.jd.com, gateway.abite.com, gateway.cotticoffee.com, iobs.pingan.com.cn, hcz-member.pingan.com.cn, shop-api.retail.mi.com
+hostname = m.360buyimg.com, api.smart.jd.com, gateway.abite.com, gateway.cotticoffee.com, shop-api.retail.mi.com
