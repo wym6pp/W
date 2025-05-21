@@ -17,6 +17,8 @@ DOMAIN,commercial.shouji.360.cn,REJECT
 # NGA 开屏广告
 DOMAIN-KEYWORD,tagtic,REJECT
 DOMAIN-KEYWORD,umeng,REJECT
+# Outlook
+DOMAIN-KEYWORD,adnxs,REJECT
 
 AND, ((PROTOCOL, STUN), (DOMAIN-KEYWORD, bilibili.)), REJECT
 
