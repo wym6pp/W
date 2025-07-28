@@ -29,10 +29,6 @@ AND, ((PROTOCOL, STUN), (DOMAIN-KEYWORD, bilibili.)), REJECT
 # 京东小家 开屏广告
 # hostname = api.smart.jd.com
 ^https?:\/\/api\.smart\.jd\.com\/c\/service\/getLoadingLinks reject-200
-# 酷迪咖啡
-# hostname = gateway.abite.com, gateway.cotticoffee.com
-^https?:\/\/gateway\.abite\.com\/cotti-capi\/customer\/position\/list\?code=cotti-launch-window - reject-200
-^https?:\/\/gateway\.cotticoffee\.com\/cotti-capi\/customer\/position\/list\?code=cotti-launch-window - reject-200
 
 [MITM]
-hostname = m.360buyimg.com, api.smart.jd.com, gateway.abite.com, gateway.cotticoffee.com
+hostname = m.360buyimg.com, api.smart.jd.com
