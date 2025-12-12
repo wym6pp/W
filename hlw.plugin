@@ -1,22 +1,28 @@
-#!name = 黑料网去广告
-#!desc = 去除部分广告，优先使用海外永久入口，其次使用国内入口(会变动)，走代理
-#!openUrl = https://155.fun/
-#!author = fishdown
-#!tag = 去广告
-#!homepage = https://155.fun/
-#!icon = https://lneuk.rslsilne.cc/static/pc/icons/icon_512x512.qscd.png
-#!date = 2024-11-20
+# Umetrip (航旅纵横) Remove Ads - 2025-11 STRICT
+# Author: ChatGPT
+# Goal: Block splash ads even when CDN switches to Ali (ossgw.alicdn.com / mPaaS).
+# Notes:
+# - Keep gateway traffic for core functions.
+# - May be slightly aggressive; if a feature breaks, share the hit URL from logs and I'll relax it.
 
-[Rewrite] 
-# 其他页面随机去广告
-^https?:\/\/[^\/]+\/category\/6\.html$ response-body-replace-regex <style> <style>\x20.video-list\x20>\x20.video-item:nth-of-type(-n+2)\x20{\x20display:none\x20!important}\x20.gotoclick{\x20display:none\x20!important}\x20.modal{\x20display:none\x20!important}\x20.addbox{\x20display:none\x20!important}
-^https?:\/\/[^\/]+\/category\/20\.html$ response-body-replace-regex <style> <style>\x20.video-list\x20>\x20.video-item:nth-of-type(3)\x20{\x20display:none\x20!important}\x20.gotoclick{\x20display:none\x20!important}\x20.modal{\x20display:none\x20!important}\x20.addbox{\x20display:none\x20!important}
-# 首页去广告
-^https:\/\/18hlw\.com response-body-replace-regex <style> <style>\x20.gotoclick{\x20display:none\x20!important}\x20.modal{\x20display:none\x20!important}\x20.addbox{\x20display:none\x20!important}
-# 会因地址更改而失效，可以自己改下新地址正则
-^https:\/\/lneuk\.rslsilne\.cc response-body-replace-regex <style> <style>\x20.gotoclick{\x20display:none\x20!important}\x20.modal{\x20display:none\x20!important}\x20.addbox{\x20display:none\x20!important}
-^https:\/\/7054s\.rbcmpeu\.org response-body-replace-regex <style> <style>\x20.gotoclick{\x20display:none\x20!important}\x20.modal{\x20display:none\x20!important}\x20.addbox{\x20display:none\x20!important}
-^https:\/\/d2bkn61acaxm61\.cloudfront\.net response-body-replace-regex <style> <style>\x20.gotoclick{\x20display:none\x20!important}\x20.modal{\x20display:none\x20!important}\x20.addbox{\x20display:none\x20!important}
+[MITM]
+hostname = oss.umetrip.com, api.umetrip.com, ossgw.alicdn.com, *.aliyuncs.com
 
-[Mitm]
-hostname = 18hlw.com,lneuk.rslsilne.cc,7054s.rbcmpeu.org,d2bkn61acaxm61.cloudfront.net
+[Rewrite]
+# ---- Primary (official OSS) ----
+^https?:\/\/oss\.umetrip\.com\/fs\/advert\/polite.* reject-dict
+^https?:\/\/oss\.umetrip\.com\/fs\/advert\/.* reject-dict
+
+# ---- Ali CDN mirror of the same bucket ----
+^https?:\/\/ossgw\.alicdn\.com\/.*\/fs\/advert\/polite.* reject-dict
+^https?:\/\/ossgw\.alicdn\.com\/.*\/fs\/advert\/.* reject-dict
+
+# ---- mPaaS (Ali) possible splash delivery paths (conservative) ----
+^https?:\/\/(?:[a-z0-9.-]+\.)?aliyuncs\.com\/.*/advert\/.* reject-dict
+^https?:\/\/(?:[a-z0-9.-]+\.)?aliyuncs\.com\/.*/ads?\/.* reject-dict
+
+# ---- Legacy API ad endpoints ----
+^https?:\/\/api\.umetrip\.com\/api\/(ad|advert)\/.* reject-dict
+
+# ---- Safeguard: do NOT block app gateway (business APIs) ----
+# (No rule here; we simply avoid matching /gateway/)
