@@ -31,4 +31,4 @@ AND, ((PROTOCOL, STUN), (DOMAIN-KEYWORD, bilibili.)), REJECT
 ^https?:\/\/api\.smart\.jd\.com\/c\/service\/getLoadingLinks reject-200
 
 [MITM]
-hostname = m.360buyimg.com, api.smart.jd.com
+hostname = m.360buyimg.com, api.smart.jd.com, -client.app.coc.10086.cn
