@@ -1,11 +1,8 @@
 #!name = wy
 
 [Rule]
-# emby
-#DOMAIN-KEYWORD,emby,PROXY
 DOMAIN-KEYWORD,pianyuan,DIRECT
-DOMAIN-KEYWORD,realme,DIRECT
-#DOMAIN-KEYWORD,weixin,DIRECT
+DOMAIN-KEYWORD,icbc,DIRECT
 # 百度地图搜索放行
 IP-CIDR,180.76.76.200/32,DIRECT, no-resolve
 # 最会买误杀
@@ -18,13 +15,10 @@ DOMAIN,commercial.shouji.360.cn,REJECT
 # NGA 开屏广告
 DOMAIN-KEYWORD,tagtic,REJECT
 DOMAIN-KEYWORD,umeng,REJECT
-# Outlook
-# DOMAIN-KEYWORD,adnxs,REJECT
 
 AND, ((PROTOCOL, STUN), (DOMAIN-KEYWORD, bilibili.)), REJECT
 
 [Rewrite]
-# ^https:\/\/api\.xiachufang\.com\/v2\/config\/get\.json$ reject
 ^https?:\/\/m\.360buyimg\.com\/mobilecms\/s1125x2436_jfs reject-200
 # 京东小家 开屏广告
 # hostname = api.smart.jd.com
