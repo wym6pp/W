@@ -24,7 +24,7 @@ DOMAIN-KEYWORD,adnxs,REJECT
 AND, ((PROTOCOL, STUN), (DOMAIN-KEYWORD, bilibili.)), REJECT
 
 [Rewrite]
-^https:\/\/api\.xiachufang\.com\/v2\/config\/get\.json$ reject
+#^https:\/\/api\.xiachufang\.com\/v2\/config\/get\.json$ reject
 ^https?:\/\/m\.360buyimg\.com\/mobilecms\/s1125x2436_jfs reject-200
 # 京东小家 开屏广告
 # hostname = api.smart.jd.com
