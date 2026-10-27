@@ -20,10 +20,11 @@ AND, ((PROTOCOL, STUN), (DOMAIN-KEYWORD, bilibili.)), REJECT
 
 [Rewrite]
 request if ${url} ~= /^http:\/\/[^\/]+\/amdc\/mobileDispatch/i && ${request.header['user-agent']} ~= /AMapiPhone|%E9%97%B2%E9%B1%BC/i then reject_dict(200)
-^https?:\/\/m\.360buyimg\.com\/mobilecms\/s1125x2436_jfs reject-200
+request if ${url} ~= /^https?:\/\/m\.360buyimg\.com\/mobilecms\/s1125x2436_jfs/i then reject(200)
 # 京东小家 开屏广告
 # hostname = api.smart.jd.com
-^https?:\/\/api\.smart\.jd\.com\/c\/service\/getLoadingLinks reject-200
+request if ${url} ~= /^https?:\/\/api\.smart\.jd\.com\/c\/service\/getLoadingLinks/i then reject(200)
 
 [MITM]
 hostname = m.360buyimg.com, api.smart.jd.com, -client.app.coc.10086.cn, -image.mybank.icbc.com.cn
+
