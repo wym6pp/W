@@ -10,7 +10,7 @@ IP-CIDR,180.76.76.200/32,DIRECT, no-resolve
 DOMAIN,api.zuihuimai.com,DIRECT
 
 DOMAIN-SUFFIX,getui.com,DIRECT
-# 360安全卫士 开屏广告
+# 360手机卫士 开屏广告
 DOMAIN,commercial.shouji.360.cn,REJECT
 # NGA 开屏广告
 DOMAIN-KEYWORD,tagtic,REJECT
